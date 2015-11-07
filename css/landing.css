@@ -1,9 +1,16 @@
 .jumbotron
 {
 	background-color:rgba(13, 10, 27,0.9);
-	background-size:100% 100%;
-	height:57em;
-	
+	position:relative;
+	margin-bottom:0%;
+}
+.heading
+{
+	margin-top:30%;
+}
+i
+{
+	margin-right:1%;
 }
 #welcome
 {
@@ -11,19 +18,16 @@
 	font-family:handlee;
 	margin-top:100px;
 	color:rgb(0, 153, 255);
-	
-
 }
 .second
 {
 	font-weight:700;
 	font-family:handlee;
-	margin-top:100px;
 	color:rgb(0, 153, 255);
 }
-i
+.social
 {
-	margin-top:35%;
+	
 }
 .btn-group
 {
@@ -31,9 +35,6 @@ i
 	margin-top:5%;
 	border:none;
 	font-family:cursive;
-	
-
-	
 	
 }
 .btn-group >a
@@ -63,7 +64,7 @@ i
 }
 body
 {	
-	background: url(http://fc04.deviantart.com/fs36/f/2008/284/3/8/Lonely_tree_for_HDTV_by_phoenix1981.jpg);
+	background:url(http://i.imgur.com/Rh6spHa.jpg);
 	background-size:100% 100%;
 	overflow-y:hidden;
 }
