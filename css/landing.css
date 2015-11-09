@@ -3,6 +3,7 @@
 	background-color:rgba(13, 10, 27,0.9);
 	position:relative;
 	margin-bottom:0%;
+	
 }
 .heading
 {
@@ -24,7 +25,7 @@ i
 	font-weight:700;
 	font-family:handlee;
 	color:rgb(0, 153, 255);
-	height:20em;
+	height:35em;
 }
 .social
 {
