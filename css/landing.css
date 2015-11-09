@@ -26,6 +26,7 @@ i
 	font-family:handlee;
 	color:rgb(0, 153, 255);
 	height:35em;
+	max-height:100%;
 }
 .social
 {
