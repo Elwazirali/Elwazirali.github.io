@@ -14,7 +14,6 @@
     _top:expression(eval(document.documentElement.scrollTop+
         (document.documentElement.clientHeight-this.offsetHeight)));
     height:35px;
-	margin-left:10px;
 }
 .heading
 {
