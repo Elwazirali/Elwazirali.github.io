@@ -30,7 +30,13 @@ i
 }
 .social
 {
-	
+    bottom:0;
+    position:fixed;
+    z-index:150;
+    _position:relative;
+    _top:expression(eval(document.documentElement.scrollTop+
+        (document.documentElement.clientHeight-this.offsetHeight)));
+    height:35px;
 }
 .btn-group
 {
