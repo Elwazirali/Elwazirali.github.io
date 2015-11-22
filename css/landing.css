@@ -1,6 +1,6 @@
 .jumbotron
 {
-	background-color:rgba(13, 10, 27,0.9);
+	background-color:rgba(13, 10, 27,0.5);
 	position:relative;
 	margin-bottom:0%;
 	
@@ -19,7 +19,7 @@ i
 	font-weight:700;
 	font-family:handlee;
 	margin-top:0px;
-	color:rgb(0, 153, 255);
+	color:rgb(0, 50, 50);
 }
 .second
 {
