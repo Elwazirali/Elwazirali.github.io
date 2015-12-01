@@ -1,3 +1,5 @@
+
+
 $(document).ready(function(){
 
 	(function($){
@@ -39,3 +41,12 @@ $(document).ready(function(){
  });
 
 });
+var iOS = /iPad|iPhone|iPod/.test(navigator.platform);
+var detectiOS = function(){
+	
+	if (iOS===true)
+	{
+		$('body').css("background","url(https://greenhatworld.com/wp-content/uploads/2015/05/Amazing-Wallpaper-For-Iphone-Hd.jpg)")
+	}
+};
+$(document).ready(detectiOS);
