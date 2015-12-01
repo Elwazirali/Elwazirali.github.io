@@ -35,18 +35,17 @@ $(document).ready(function(){
         }
     });
 })(jQuery);
-
- $(document).ready(function() {
-        $('#welcome').rotaterator({fadeSpeed:1000, pauseSpeed:1000});
- });
-
-});
 var iOS = /iPad|iPhone|iPod/.test(navigator.platform);
-var detectiOS = function(){
-	
-	if (iOS===true)
+ $(document).ready(function() {
+ 	
+ 	if (iOS===true)
 	{
 		$('body').css("background","url(https://greenhatworld.com/wp-content/uploads/2015/05/Amazing-Wallpaper-For-Iphone-Hd.jpg)")
 	}
-};
-$(document).ready(detectiOS);
+        $('#welcome').rotaterator({fadeSpeed:1000, pauseSpeed:1000});
+        
+ });
+
+
+
+
