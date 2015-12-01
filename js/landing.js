@@ -1,4 +1,5 @@
 $(document).ready(function(){
+
 	var iOS = /iPad|iPhone|iPod/.test(navigator.platform);
  	if(iOs===true)
  	{
@@ -6,6 +7,11 @@ $(document).ready(function(){
 		$('body').css("background-attachment","fixed")
 		$('body').css("background-size","100% 100%")
  	}
+	
+});
+
+$(document).ready(function(){
+	
 
 	(function($){
     $.fn.extend({ 
