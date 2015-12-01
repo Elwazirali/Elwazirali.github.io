@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
 	var iOS = /iPad|iPhone|iPod/.test(navigator.platform);
- 	if(iOs===true)
+ 	if(iOS===true)
  	{
  		$('body').css("background","url(https://greenhatworld.com/wp-content/uploads/2015/05/Amazing-Wallpaper-For-Iphone-Hd.jpg)")
 		$('body').css("background-attachment","fixed")
