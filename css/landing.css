@@ -70,4 +70,5 @@ body
 	background:url(http://i.imgur.com/0qzeQS2.jpg);
 	background-size:100% 100%;
 	overflow-y:hidden;
+	background-repeat: repeat-x;
 }
