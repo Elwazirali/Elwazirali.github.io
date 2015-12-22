@@ -1,9 +1,12 @@
+ul
+{
+	
+}
 .jumbotron
 {
 	background-color:rgba(13, 10, 27,0.5);
 	position:relative;
 	margin-bottom:0%;
-	
 }
 
 .heading
@@ -16,31 +19,66 @@ i
 }
 #welcome
 {
-	font-family: 'Handlee', sans-serif;
+	font-family:'Handlee';
 	margin-top:0px;
-	color:white;
+	color:#66ccff;
+}
+.fa-android
+{
+	transition:500ms;
+}
+.fa-android:hover
+{
+	transition:500ms;
+	color:#66ff66;
+}
+.fa-code
+{
+	transition:500ms;
+}
+.fa-code:hover
+{
+	transition:500ms;
+	color:#ff6666;
+}
+.fa-windows
+{
+	transition:500ms;
+}
+.fa-windows:hover
+{
+	transition:500ms;
+	color:#0099ff;
 }
 .second
 {
 	font-weight:700;
 	font-family:handlee;
-	color:rgb(0, 153, 255);
+	background-color:rgba(0, 153, 255,0.5);
 	height:35em;
 	max-height:100%;
 }
+img
+{
+	height:400px;
+	width:400px;
+	border-radius:100%;
+	opacity:0.8;
+	
+}
 .social
 {
-    	
+    margin-top:30px;
 }
-.btn-group
+.row
 {
-	text-align:center;
+	
 	margin-top:5%;
 	border:none;
 	font-family:cursive;
 	
 }
-.btn-group >a
+.row >a
 {
 	opacity:0.5;
 	background-color:transparent;
@@ -52,7 +90,7 @@ i
 	border:none;
 	
 }
-.btn-group >a:hover
+.row >a:hover
 {
 	border-width:2px;
 	border-color:white;
@@ -70,6 +108,6 @@ body
 	background:url(http://i.imgur.com/0qzeQS2.jpg);
 	background-attachment:fixed;
 	background-size:100% 100%;
-	overflow-y:hidden;
+	overflow-x:hidden;
 	background-repeat: repeat-x;
 }
