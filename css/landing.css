@@ -1,6 +1,7 @@
-ul
+a:visited 
 {
-	
+	    text-decoration: none;
+
 }
 .jumbotron
 {
@@ -26,14 +27,19 @@ i
 .fa-android
 {
 	transition:500ms;
+	padding-left:50px;
+	padding-right:50px;
 }
 .fa-android:hover
 {
+	
 	transition:500ms;
 	color:#66ff66;
 }
 .fa-code
 {
+	padding-left:50px;
+	padding-right:50px;
 	transition:500ms;
 }
 .fa-code:hover
@@ -43,6 +49,8 @@ i
 }
 .fa-windows
 {
+	padding-left:50px;
+	padding-right:50px;
 	transition:500ms;
 }
 .fa-windows:hover
