@@ -6,6 +6,7 @@ $(document).ready(function(){
  		$('body').css("background","url(https://greenhatworld.com/wp-content/uploads/2015/05/Amazing-Wallpaper-For-Iphone-Hd.jpg)")
 		$('body').css("background-attachment","fixed")
 		$('body').css("background-size","100% 100%")
+		$('.fa-android').css("margin-top","100px")
  	}
 	
 });
