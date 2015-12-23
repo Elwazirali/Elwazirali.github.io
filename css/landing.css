@@ -68,15 +68,20 @@ i
 }
 img
 {
-	height:400px;
-	width:400px;
+	height:120px;
+	width:120px;
 	border-radius:100%;
-	opacity:0.8;
-	
+	opacity:0.95;
+	position:relative;
+	z-index:1;
+	margin-top:-90px;
+
 }
+
 .social
 {
     margin-top:30px;
+	margin-bottom:10px;
 }
 .row
 {
