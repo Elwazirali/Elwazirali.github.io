@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
 	var iOS = /iPad|iPhone|iPod/.test(navigator.platform);
-	var android = (android)/i.test(navigator.userAgent);
+	var android = /(android)/i.test(navigator.userAgent);
  	if(iOS===true || android===true)
  	{
  		$('body').css("background","url(http://i.imgur.com/OHghIbe.jpg)")
