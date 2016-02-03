@@ -1,9 +1,10 @@
 $(document).ready(function(){
 
 	var iOS = /iPad|iPhone|iPod/.test(navigator.platform);
- 	if(iOS===true)
+	var android = /(android)/i.test(navigator.userAgent);
+ 	if(iOS===true || android===true)
  	{
- 		$('body').css("background","url(https://greenhatworld.com/wp-content/uploads/2015/05/Amazing-Wallpaper-For-Iphone-Hd.jpg)")
+ 		$('body').css("background","url(http://i.imgur.com/OHghIbe.jpg)")
 		$('body').css("background-attachment","fixed")
 		$('body').css("background-size","100% 100%")
 		$('.fa-android').css("margin-top","100px")
